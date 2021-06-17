@@ -1,0 +1,8 @@
+<p> {{'Server'}} id : {{ServerId}} is {{GetServerStatus()}}</p>
+<button [disabled]="AllowNewServer" (click)="ClickMsg()">click</button>
+<p>{{Msg}}</p>
+<input type="text" (input)="DisplayInputedData($event)" />
+<p>{{InputMsg}}</p>
+<input type="text" (input)="InputData($event)" />
+<button (click)="DisplayData()">click</button>
+<p>{{Name}}</p>
