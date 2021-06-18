@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./servers.component.css']
 })
 export class ServersComponent implements OnInit {
+  serverName: string = 'name';
+  servers: Array<string> = ['test1', 'test2'];
 
   constructor() { }
 

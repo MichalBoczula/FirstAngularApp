@@ -1,0 +1,4 @@
+<p>homework3 works!</p>
+<button (click)="onClick()">click</button>
+<p *ngIf ="showSecret">{{secret}}</p>
+<p *ngFor="let ele of logs; let i = index"  [ngClass] = "{change: i > 4}">{{ele}}</p>

@@ -1,8 +1,23 @@
-<p> {{'Server'}} id : {{ServerId}} is {{GetServerStatus()}}</p>
+<!--Binding-->
+<!--<p> {{'Server'}} id : {{ServerId}} is {{GetServerStatus()}}</p>
 <button [disabled]="AllowNewServer" (click)="ClickMsg()">click</button>
 <p>{{Msg}}</p>
 <input type="text" (input)="DisplayInputedData($event)" />
 <p>{{InputMsg}}</p>
 <input type="text" (input)="InputData($event)" />
 <button (click)="DisplayData()">click</button>
-<p>{{Name}}</p>
+<p>{{Name}}</p>-->
+
+<!--Directives-->
+<!--<input type="text" [(ngModel)]="InputedName"/>
+<button (click) = "DisplayServerName()">Submit</button>
+<p *ngIf="ServerCreated; else noServer">Server name is : {{ServerName}}</p>
+<ng-template #noServer>
+  <p>There is no name :(</p>
+</ng-template>-->
+
+<!--Dynamic styling-->
+<!--<p [ngStyle] = "{color: GetColor()}"> {{'Server'}} id : {{ServerId}} is {{GetServerStatus()}}</p>-->
+
+<!--Dynamic Class-->
+<!--<p [ngClass] = "{online: ServerStatus === 'online'}"> {{'Server'}} id : {{ServerId}} is {{GetServerStatus()}}</p>-->
